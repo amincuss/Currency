@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33927.249
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Currency.Api", "Currency\Currency.Api.csproj", "{E127138C-2445-4F40-9D14-15E35CC3D026}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bussines.Layer", "Bussines.Layer\Bussines.Layer.csproj", "{E29F7F95-ABCD-42BB-AA91-1760AF417E72}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BussinesLayer", "BussinesLayer", "{A754A247-A1BA-4E09-B955-0DDE90CA7A6E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E127138C-2445-4F40-9D14-15E35CC3D026}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E127138C-2445-4F40-9D14-15E35CC3D026}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E127138C-2445-4F40-9D14-15E35CC3D026}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E127138C-2445-4F40-9D14-15E35CC3D026}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E29F7F95-ABCD-42BB-AA91-1760AF417E72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E29F7F95-ABCD-42BB-AA91-1760AF417E72}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E29F7F95-ABCD-42BB-AA91-1760AF417E72}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E29F7F95-ABCD-42BB-AA91-1760AF417E72}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E29F7F95-ABCD-42BB-AA91-1760AF417E72} = {A754A247-A1BA-4E09-B955-0DDE90CA7A6E}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FB91E260-750D-4DDA-8202-8371432AF211}
+	EndGlobalSection
+EndGlobal
